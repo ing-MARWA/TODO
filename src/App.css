@@ -1,0 +1,125 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    background-image: url("blue-motivation-neon-lights-sign.jpg");
+}
+.plan-text
+{
+    color: rgb(10, 10, 10);
+    height: 60px;
+    font-size: 25px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F3D3E;
+}
+.todo-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+.todo-input
+{
+    display: flex;
+    align-items: center;
+    margin: 4px auto;
+    color: white;
+    font-size: 20px;
+    background-color:#0F3D3E;
+    padding: 16px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.todo-btn
+{
+    background-color: #0F3D3E;
+    width: 10%;
+    height: 50px;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+    right: 170px;
+    transition: 0.3s;
+    
+}
+
+.todo-btn:hover{
+    background-color:#3F4E4F ;
+    color: white;
+}
+
+.todo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: #fff;
+    background-color:#E5CB9F ;
+    padding: 16px;
+    border-radius: 10px;
+    width: 90%;
+    transition: .5s;
+}
+.delete-icon {
+    margin-right: 5px;
+    background-color:transparent;
+    color:#EB1D36;
+    transition: .5s;
+}
+
+.edit-icon {
+    color: #34B3F1;
+    background-color:transparent;
+    transition: .5s;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    background-color:transparent;
+    cursor: pointer;
+}
+
+.text
+{
+    color: black;
+    text-align: center;
+    background-color:transparent;
+    font-size: 26px;
+    font-family:sans-serif;
+}
+
+
+.edit-icon:hover
+{
+    color: white;
+}
+.delete-icon:hover
+{
+    color: white;
+}
+
+.todo-button-edit
+{
+    width: 10%;
+    height: 50px;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+    right: 170px;
+    transition: 0.3s;
+    
+}
+
+.complete {
+    text-decoration: line-through;
+    opacity: 0.3;
+  }
